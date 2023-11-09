@@ -83,7 +83,7 @@ h4,
 h5,
 h6 {
   font-family: "Poppins", sans-serif;
-  color: #070346;
+  color:#F26522 ;
   margin: 0px;
   font-weight: 600;
 }
@@ -209,14 +209,13 @@ textarea.form_control {
 
 /*===== All bg =====*/
 .main-bg {
-  background-image: url(white.jpg);
-background-attachment: fixed;
-background-size: cover;
+  
+  background-color: #0E3363;
   
 }
 
 .blue-bg {
-  background-color: #020633
+  background-color: #020633;
 }
 
 .light-bg {
@@ -224,9 +223,8 @@ background-size: cover;
 }
 
 .aquamarine-light {
-  background-image: url(Black@4x.png);
-  background-attachment: fixed;
-  background-size: cover;
+  background-color: #020633
+ 
 }
 
 /*===== Extend Css =====*/
@@ -261,7 +259,7 @@ background-size: cover;
   border-radius: 50%;
   background-color: #fff;
   font-size: 16px;
-  color: #0E3363;
+  color: #F26522;
 }
 
 .features-area-v4 .features-wrapper .features-content-box ul.list li, .features-area-v2 .content-box ul.list li, .service-area-v4 .service-item .content ul.list li, .about-area-v2 .about-content-box ul.list li, .about-area-v1 .about-content-box ul.list li {
@@ -280,7 +278,7 @@ background-size: cover;
 
 .skill-area-v1 .skill-quote .button .btn-link, .download-tools-section .quote-message .button .btn-link, .service-area-v1 .serivce-item .content .btn-link {
   text-decoration: none;
-  color:#0E3363;
+  color:#fd6350;
   font-weight: 700;
 }
 .skill-area-v1 .skill-quote .button .btn-link:after, .download-tools-section .quote-message .button .btn-link:after, .service-area-v1 .serivce-item .content .btn-link:after {
@@ -602,7 +600,7 @@ button {
    02. Start Header  css 
 ===========================---*/
 header {
-  z-index: 1000;
+  z-index: 1;
 }
 
 .transparent-header {
@@ -779,7 +777,7 @@ background-size: cover;
           box-shadow: none;
   background-color: transparent;
   visibility: visible;
-  opacity: ;
+  opacity:1 ;
   display: none;
   -webkit-transition: none;
   transition: none;
@@ -1622,7 +1620,7 @@ background-size: cover;
 .hero-area-v3 .hero-content h5 {
   font-size: 20px;
   line-height: 28px;
-  color: #777777;
+  color: #fd6350;
   font-weight: 400;
   margin-bottom: 45px;
 }
